@@ -1,0 +1,1 @@
+Express authentication middleware for [this](https://github.com/TangerieOrg/AuthenticationService) authentication service

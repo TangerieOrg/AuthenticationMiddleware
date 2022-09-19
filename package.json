@@ -1,12 +1,24 @@
 {
   "name": "@tangerie/authentication_middleware",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Express Authentication for my auth service",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "version": "git add .",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [],
   "author": "Tangerie <josh.cavill01@gmail.com> (https://github.com/Tangerie)",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TangerieOrg/AuthenticationMiddleware"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "files": ["lib/**/*"]
 }
