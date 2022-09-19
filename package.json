@@ -1,6 +1,6 @@
 {
   "name": "@tangerie/authentication_middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express Authentication for my auth service",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
