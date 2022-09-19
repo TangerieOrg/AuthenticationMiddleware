@@ -1,1 +1,2 @@
-export const Hello = () => console.log("Hello");
+export * from "./middleware";
+export * as Routes from "./routes";
