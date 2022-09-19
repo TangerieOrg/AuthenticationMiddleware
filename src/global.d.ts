@@ -1,5 +1,5 @@
 declare namespace Express {
     export interface Request {
-        user?: import("../../types").User
+        user?: import("./types").User
     }
 }
